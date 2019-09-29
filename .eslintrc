@@ -1,0 +1,28 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react-native"],
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "object-curly-spacing": "off",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-filename-extension": "off",
+    "react/require-default-props": "off",
+    "no-use-before-define": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-space-before-closing": "off",
+    "react/jsx-tag-spacing": "off",
+    "max-len": [2, 135, 4, {"ignoreUrls": true}],
+    "class-methods-use-this": "off",
+    "arrow-body-style": "off",
+    "no-plusplus": "off",
+    "no-array-index-key": "off",
+    "no-multi-comp": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  }
+}
