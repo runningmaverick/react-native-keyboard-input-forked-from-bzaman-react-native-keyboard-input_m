@@ -13,7 +13,7 @@ public class CustomKeyboardRootViewShadow extends LayoutShadowNode {
         mLayout.setShadowNode(this);
     }
 
-    @Override
+    //@Override
     public void onBeforeLayout() {
         mLayout.setShadowNode(this);
     }
